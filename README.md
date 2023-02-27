@@ -2,11 +2,11 @@
 
 ---
 
-## Density:
+## Voltage:
 
-- **_Total Range_**: 6.00 lb/ft3 to 8.00 lb/ft3
-- **_Desired Range_**: 6.25 lb/ft3 to 7.25 lb/ft3
-- **_Mean_**: 6.75 (lb/ft3)
+- **_Total Range_**: 360 kV to 420 kV,
+- **_Desired Range_**: 360 kV to 400 kV
+- **_Mean_**: 380
 - **_Standard Deviation_**: 2.0%
 
 ---
@@ -21,6 +21,15 @@
 
 ---
 
+## Temperature:
+
+- **_Total Range_**: -40 F to 104 F
+- **_Desired Range_**: 60 F A to 80 F
+- **_Mean_**: 70 F
+- **_Standard Deviation_**: 2.5%
+
+---
+
 ## Moisture:
 
 - **_Total Range_**: 0 ppm to 50 ppm,
@@ -30,18 +39,18 @@
 
 ---
 
-## Pressure:
+## Density:
 
-- **_Total Range_**: 70 psi to 90 psi,
-- **_Desired Range_**: 75 ppm to 85 ppm
-- **_Mean_**: 80psi
+- **_Total Range_**: 6.00 lb/ft3 to 8.00 lb/ft3
+- **_Desired Range_**: 6.25 lb/ft3 to 7.25 lb/ft3
+- **_Mean_**: 6.75 (lb/ft3)
 - **_Standard Deviation_**: 2.0%
 
 ---
 
-## Voltage:
+## Pressure:
 
 - **_Total Range_**: 70 psi to 90 psi,
-- **_Desired Range_**: 75 ppm to 85 ppm
-- **_Mean_**: 80psi
+- **_Desired Range_**: 75 psi to 85 psi
+- **_Mean_**: 80 psi
 - **_Standard Deviation_**: 2.0%

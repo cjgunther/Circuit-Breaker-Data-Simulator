@@ -13,9 +13,9 @@ def generate_breaker_data(name, month, year):
     # set random seed for randomization
     np.random.seed(int(time.time()))
 
-    # generate random voltage values with mean of 375 kV and standard deviation of 2.5%
-    voltage_mean = 375
-    voltage_std_dev = voltage_mean * 0.025
+    # generate random voltage values with mean of 380 kV and standard deviation of 2.0%
+    voltage_mean = 380
+    voltage_std_dev = voltage_mean * 0.020
     voltage_values = np.random.normal(loc=voltage_mean, scale=voltage_std_dev, size=len(date_rng))
 
     # generate random current values with mean of 2250 Amperes and standard deviation of 2.5%
