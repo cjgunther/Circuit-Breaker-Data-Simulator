@@ -20,7 +20,7 @@ def generate_pressure_data(name, month, year):
     pressure_std_dev = pressure_mean * 0.020
     pressure_values = np.random.normal(loc=pressure_mean, scale=pressure_std_dev, size=len(date_rng))
 
-    # round the pressure values to 1 decimal points
+    # round the pressure values to 1 decimal point
     pressure_values = np.round(pressure_values, 1)
 
     # create DataFrame with timestamp, name, and pressure columns
