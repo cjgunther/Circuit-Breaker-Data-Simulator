@@ -1,5 +1,21 @@
 # High-Voltage 420kV SF6 Circuit Breaker Data Simulator
 
+## How to use the cb data simulator
+
+- The simulator is a python script that will be run from the command line / terminal.
+- The simulator will generate sensor readings for a whole month.
+- The simulated sensor readings will be generated in 1 minute intervals.
+- The generated data will be written to a local file named "{name}-density-{month}-{year}.csv" in a local directory named "data".
+
+- The simulator takes 3 required arguments:
+  1. The circuit breaker name
+  2. The month as an integer
+  3. The year as a 4 digit integer
+
+## Run the following command to generate circuit breaker data for a breaker named "sf6" in January 2022.
+
+- Run the simulator: `python cb-data-gen.py sf6 1 2022`
+
 ---
 
 ## Voltage:

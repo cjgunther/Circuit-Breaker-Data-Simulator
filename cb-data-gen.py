@@ -7,7 +7,7 @@ import os
 
 def generate_breaker_data(name, month, year):
     # calculate number of days in the given month and year a create a date range
-    num_days = 1#pd.Period(f'{year}-{month}').days_in_month
+    num_days = pd.Period(f'{year}-{month}').days_in_month
     date_rng = pd.date_range(start=f'{year}-{month}-01 00:00:00', end=f'{year}-{month}-{num_days} 23:59:00', freq='1min')
 
     # set random seed for randomization
