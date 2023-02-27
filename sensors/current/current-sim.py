@@ -21,7 +21,7 @@ def generate_current_data(name, month, year):
     current_values = np.random.normal(loc=current_mean, scale=current_std_dev, size=len(date_rng))
 
     # round the current values to 2 decimal points
-    current_values = np.round(current_values, 2)
+    current_values = np.round(current_values, 0)
 
     # create DataFrame with timestamp, name, and current columns
     data = pd.DataFrame({'timestamp': date_rng, 'name': name, 'current (A)': current_values})
