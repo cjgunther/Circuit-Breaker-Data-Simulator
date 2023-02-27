@@ -14,9 +14,9 @@ def generate_current_data(name, month, year):
     # set random seed for randomization
     np.random.seed(int(time.time()))
 
-    # generate random current values with mean of 2250 A and standard deviation of 2.0%
+    # generate random current values with mean of 2250 A and standard deviation of 2.5%
     current_mean = 2250
-    current_std_dev = current_mean * 0.020
+    current_std_dev = current_mean * 0.025
     current_values = np.random.normal(loc=current_mean, scale=current_std_dev, size=len(date_rng))
 
     # round the current values to 2 decimal points
