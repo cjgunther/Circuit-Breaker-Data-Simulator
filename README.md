@@ -16,7 +16,7 @@
 - **_Total Range_**: 1750 A to 2750 A
 - **_Desired Range_**: 2000 A to 2500 A
 - **_Mean_**: 2250 A
-- **_Standard Deviation_**: 2.0%
+- **_Standard Deviation_**: 2.5%
 - **_Maximum sustained load_**: 3150 A
 
 ---
