@@ -10,7 +10,7 @@ def generate_current_data(name, month, year):
     num_days = pd.Period(f'{year}-{month}').days_in_month
     
     # create datetime index for the entire month
-    date_rng = pd.date_range(start=f'{year}-{month}-01 00:00:00', end=f'{year}-{month}-{num_days} 23:59:50', freq='1min')
+    date_rng = pd.date_range(start=f'{year}-{month}-01 00:00:00', end=f'{year}-{month}-{num_days} 23:59:00', freq='1min')
     
     # set random seed for randomization
     np.random.seed(int(time.time()))

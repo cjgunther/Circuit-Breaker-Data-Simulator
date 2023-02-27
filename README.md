@@ -35,4 +35,4 @@
 - **_Total Range_**: 70 psi to 90 psi,
 - **_Desired Range_**: 75 ppm to 85 ppm
 - **_Mean_**: 80psi
-- **_Standard Deviation_**: 2.5%
+- **_Standard Deviation_**: 2.0%
