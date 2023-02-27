@@ -20,7 +20,7 @@ def generate_current_data(name, month, year):
     current_std_dev = current_mean * 0.025
     current_values = np.random.normal(loc=current_mean, scale=current_std_dev, size=len(date_rng))
 
-    # round the current values to 2 decimal points
+    # round the current values to 0 decimal points
     current_values = np.round(current_values, 0)
 
     # create DataFrame with timestamp, name, and current columns
