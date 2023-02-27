@@ -26,6 +26,6 @@
 - **_Total Range_**: 0 ppm to 50 ppm,
 - **_Desired Range_**: 0 ppm to 20 ppm
 - **_Mean_**: 10ppm
-- **_Standard Deviation_**: 25.0%
+- **_Standard Deviation_**: 20.0%
 
 ---
