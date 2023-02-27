@@ -14,7 +14,7 @@ def generate_density_data(name, month, year):
     # set random seed for randomization
     np.random.seed(int(time.time()))
 
-    # generate random density values with mean of 6.35 lb/ft3 and standard deviation of 2.5%
+    # generate random density values with mean of 6.75 lb/ft3 and standard deviation of 2.0%
     density_mean = 6.75
     density_std_dev = density_mean * 0.020
     density_values = np.random.normal(loc=density_mean, scale=density_std_dev, size=len(date_rng))
