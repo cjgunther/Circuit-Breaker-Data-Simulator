@@ -5,7 +5,7 @@
 - The simulator is a python script that will be run from the command line / terminal.
 - The simulator will generate sensor readings for a whole month.
 - The simulated sensor readings will be generated in 1 minute intervals.
-- The generated data will be written to a local file named "{name}-density-{month}-{year}.csv" in a local directory named "data".
+- The generated data will be written to a local file named "{name}-data-{month}-{year}.csv" in a local directory named "data".
 
 - The simulator takes 3 required arguments:
   1. The circuit breaker name
