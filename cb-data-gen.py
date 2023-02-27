@@ -44,12 +44,11 @@ def generate_breaker_data(name, month, year):
     pressure_values = np.random.normal(loc=pressure_mean, scale=pressure_std_dev, size=len(date_rng))
 
     # apply correlations
-    voltage_values += voltage_values * np.random.normal(loc=0, scale=0.05, size=len(date_rng)) * (current_values/current_mean - 1)
+    voltage_values += voltage_values * np.random.normal(loc=0, scale=0.05, size=len(date_rng)) * -(current_values/current_mean - 1)
     current_values += current_values * np.random.normal(loc=0, scale=0.05, size=len(date_rng)) * (voltage_values/voltage_mean - 1)
     temp_values += temp_values * np.random.normal(loc=0, scale=0.05, size=len(date_rng)) * (current_values/current_mean - 1)
-    moisture_values += moisture_values * np.random.normal(loc=0, scale=0.05, size=len(date_rng)) * (temp_values/temp_mean - 1)
-    density_values += density_values * np.random.normal(loc=0, scale=0.05, size=len(date_rng)) * (moisture_values/moisture_mean - 1)
-    pressure_values += pressure_values * np.random.normal(loc=0, scale=0.05, size=len(date_rng)) * (moisture_values/moisture_mean - 1)
+    density_values += density_values * np.random.normal(loc=0, scale=0.05, size=len(date_rng)) * -(moisture_values/moisture_mean - 1)
+    pressure_values += pressure_values * np.random.normal(loc=0, scale=0.05, size=len(date_rng)) * -(moisture_values/moisture_mean - 1)
 
     # round values
     voltage_values = np.round(voltage_values, 1)
