@@ -23,9 +23,10 @@
 
 ---
 
-## Run the following command to generate current data in Amperes for January 2022 in 1 minute intervals.
+## Run the following commands to generate current data for a breaker named "sf6" in January 2022.
 
-`python current-sim.py sf6 1 2022`
+- Switch to the "moisture" directory: `cd <path>/sensors/current/`
+- Run the simulator: `python current-sim.py sf6 1 2022`
 
 ---
 

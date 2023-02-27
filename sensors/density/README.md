@@ -23,7 +23,7 @@
 
 ---
 
-## Run the following commands to generate density data for January 2022 in 1 minute intervals.
+## Run the following commands to generate density data for a breaker named "sf6" in January 2022.
 
-- Switch to the "density" directory: `cd <path-to-density-dir>`
+- Switch to the "density" directory: `cd <path>/sensors/density/`
 - Run the simulator: `python density-sim.py sf6 1 2022`
